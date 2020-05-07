@@ -106,14 +106,14 @@ export default {
   padding-bottom 25%
   .icon-img
     position absolute
-    top 0.3rem
-    left 0.4rem
+    top 0.2rem
+    left 0.3rem
     right 0
     bottom .44rem
     box-sizing border-box
     padding .1rem
-    width 1.1rem
-    height 1.1rem
+    width 1.3rem
+    height 1.3rem
     .icon-img-content
       display block
       margin 0 auto
