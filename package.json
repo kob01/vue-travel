@@ -5,13 +5,15 @@
   "author": "kob01 <kob199476@foxmail.com>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --hot --open --config build/webpack.dev.conf.js",
+    "dev": "webpack-dev-server --open --inline --hot --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js"
   },
   "dependencies": {
     "fastclick": "^1.0.6",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

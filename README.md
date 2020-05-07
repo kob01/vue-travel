@@ -33,3 +33,11 @@ main.js中
 import fastClick from 'fastclick'
 
 fastClick.attach(document.body)
+
+```
+git push -u origin master
+```
+
+cnpm i stylus --save
+
+cnpm i stylus-loader --save
