@@ -6,8 +6,7 @@ import router from './router'
 import fastClick from 'fastclick'
 import VueAwesomeSwiper from 'vue-awesome-swiper'
 import 'styles/reset.css'
-// 1像素边框
-import 'styles/border.css'
+import 'styles/border.css' // 1像素边框
 import 'styles/iconfont.css'
 import 'swiper/css/swiper.css'
 
