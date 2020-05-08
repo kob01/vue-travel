@@ -52,6 +52,7 @@ export default {
         if (this.timer) {
           clearTimeout(this.timer)
         }
+        //优化节省性能
         this.timer = setTimeout(() => {
           const touchY = e.touches[0].clientY - 79
           const index = Math.floor((touchY - this.startY) / 20)
