@@ -108,3 +108,19 @@ cnpm i stylus-loader --save
   deactivated() {
     window.removeEventListener('scroll', this.handleScroll)},
 ``````
+
+**组件中name的用途：**
+
+1. 递归组件
+2. 取消页面缓存时（exclude=‘Detail’）
+3. VUE开发工具显示
+
+**Q:滚动行为**
+
+router/index.js中
+
+```
+scrollBehavior(to, from, savedPosition) {
+    return { x: 0, y: 0 }  },
+```
+
